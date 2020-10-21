@@ -1,0 +1,23 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-bottom: 20px;
+
+
+    .total {
+        height: 20px;
+        background: #8080804f;
+        border-radius: 20px;
+        width: 500px;
+
+
+        .fill {
+            background: #86e086;
+            height: 100%;
+            width: 50%;
+            border-radius: 20px;
+        }
+    }
+}

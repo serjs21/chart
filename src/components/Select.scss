@@ -1,0 +1,88 @@
+.select-component {
+    padding-right: 20px;
+    width: 240px;
+    position: relative;
+    .select-input {
+        justify-content: space-between;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 2px;
+        display: flex;
+        .option {
+            margin-right: 20px;
+            padding: 3px;
+            padding-left: 6px;
+
+            &.placeholder {
+                font-style: italic;
+                color: gray;
+            }
+        }
+
+        .arrowDown {
+            background: none;
+            border: none;
+            transition: transform 0.2s linear;
+
+            &.open {
+                transform: rotateZ(180deg);
+                transition: transform 0.2s linear;
+            }
+        }
+
+        .arrowDown:focus {
+            outline: none;
+        }
+    }
+
+    .option {
+            background: white;
+            width: 100%;
+            display: flex;
+            width: 100%;
+            display: flex;
+            padding: 5px 10px;
+            font-size: 13px;
+          }
+
+    .select-input:hover {
+        cursor: pointer;
+
+        .arrowDown:hover {
+            cursor: pointer;
+        }
+    }
+
+    .select-options {
+      border: 1px solid #80808017;
+      background: white;
+      position: absolute;
+      overflow: hidden;
+      max-height: 0;
+      z-index: 30;
+      width: 100%;
+      transition: max-height 0.1s linear;
+
+
+      &.open {
+        max-height: 155px;
+        height: fit-content;
+        transition: max-height 0.1s linear;
+
+      }
+
+      .selected {
+        background: #f0f0f0;
+      }
+
+
+      .option:hover {
+        background: #61dafb4f;
+        cursor: pointer;
+
+        &.selected {
+            cursor: default;
+        }
+      }
+    }
+}
