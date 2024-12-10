@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="6DLeMw15UcfwDI_Ef0b9">
-    <mxGraphModel>
+    <mxGraphModel dx="1314" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-8" value="File Upload" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-11" value="Props:&lt;div&gt;- Display component&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-8">
+          <mxGeometry x="20" y="33" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-12" value="Props:&lt;div&gt;- Display component&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-8">
+          <mxGeometry x="20" y="33" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="150" as="sourcePoint" />
+            <mxPoint x="380" y="115.38461538461536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-22" value="Filerr + &amp;lt;Dropzone /&amp;gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-23" value="Legal docs Pegasus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="wZ6wmJPwwGL0R8LcuTBu-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="150" as="sourcePoint" />
+            <mxPoint x="330" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Actions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-27" value="File preview" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="320" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-28" value="Props:&lt;div&gt;- File &amp;lt;file object&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-27">
+          <mxGeometry x="10" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-29" value="Lightbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-27">
+          <mxGeometry x="39" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-31" value="Send template" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-32" value="Props:&amp;nbsp;&lt;div&gt;- Template id&lt;/div&gt;&lt;div&gt;- User ids&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-31">
+          <mxGeometry x="9" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281" y="510" as="sourcePoint" />
+            <mxPoint x="570" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-36" value="Download file" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="590" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-37" value="???" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="618" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
