@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="4WVBhRt7EmSptVXlBFoR">
-    <mxGraphModel>
+    <mxGraphModel dx="1314" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HCcbY08hPHYRauYam24D-1" value="Legal docs admin page perseus" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="700" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-3" value="Empty state" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HCcbY08hPHYRauYam24D-1">
+          <mxGeometry x="50" y="70" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-4" value="Upload button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="HCcbY08hPHYRauYam24D-3">
+          <mxGeometry x="30" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HCcbY08hPHYRauYam24D-1">
+          <mxGeometry x="310" y="70" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-7" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="HCcbY08hPHYRauYam24D-6">
+          <mxGeometry x="60" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-8" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="350" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-9" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-10" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="456" y="370" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-11" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-12" value="Order card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="476" y="390" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-13" value="Legal docs pegasus" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="70" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="220" as="sourcePoint" />
+            <mxPoint x="370" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCcbY08hPHYRauYam24D-15" value="Templates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
