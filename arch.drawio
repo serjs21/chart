@@ -77,19 +77,19 @@
           <mxGeometry x="20" y="17" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wZ6wmJPwwGL0R8LcuTBu-44" value="Document Table" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="890" width="260" height="100" as="geometry" />
+          <mxGeometry x="60" y="890" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wZ6wmJPwwGL0R8LcuTBu-51" value="Document card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-44">
-          <mxGeometry x="59" y="44" width="120" height="30" as="geometry" />
+          <mxGeometry x="131" y="35" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wZ6wmJPwwGL0R8LcuTBu-48" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="wZ6wmJPwwGL0R8LcuTBu-49">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="320" y="939.5" as="sourcePoint" />
+            <mxPoint x="410" y="940" as="sourcePoint" />
             <mxPoint x="440" y="939.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wZ6wmJPwwGL0R8LcuTBu-49" value="Empty state" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="895" width="200" height="90" as="geometry" />
+          <mxGeometry x="490" y="895" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wZ6wmJPwwGL0R8LcuTBu-50" value="Upload button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-49">
           <mxGeometry x="40" y="39" width="120" height="30" as="geometry" />
@@ -126,6 +126,39 @@
             <mxPoint x="430" y="295" as="sourcePoint" />
             <mxPoint x="480" y="245" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-60" value="Document card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="935" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-61" value="Document card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="945" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-62" value="Document card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="955" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-63" value="Seller&#39;s documents status" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1020" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-64" value="Status (Penta)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-63">
+          <mxGeometry x="110" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-66" value="Permutation tests for each case" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-63">
+          <mxGeometry x="250" y="35" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-71" value="Props:&lt;div&gt;- Sent documents per seller&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-63">
+          <mxGeometry x="10" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-70" value="Props:&lt;div&gt;- Templates&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="68" y="918" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-72" value="Actions dropdown" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1190" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-73" value="Dropdown (penta)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-72">
+          <mxGeometry x="131" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ6wmJPwwGL0R8LcuTBu-74" value="Props:&lt;div&gt;Allowed actions&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wZ6wmJPwwGL0R8LcuTBu-72">
+          <mxGeometry x="15" y="20" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
