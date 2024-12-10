@@ -50,7 +50,7 @@
           <mxGeometry x="630" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sNUR6b2SdchIss-YffTg-25" value="Admin page" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="630" width="840" height="380" as="geometry" />
+          <mxGeometry x="110" y="630" width="820" height="380" as="geometry" />
         </mxCell>
         <mxCell id="sNUR6b2SdchIss-YffTg-33" value="Data:&lt;div&gt;- Uploaded templates&lt;/div&gt;&lt;div&gt;- User role&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sNUR6b2SdchIss-YffTg-25">
           <mxGeometry x="40" y="50" width="170" height="60" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sNUR6b2SdchIss-YffTg-31" value="Legal docs package" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="50" width="840" height="520" as="geometry" />
+          <mxGeometry x="110" y="50" width="820" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
